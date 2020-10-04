@@ -23,7 +23,6 @@ public class MyServlet extends HttpServlet {
 			
 		PrintWriter p = new PrintWriter(resp.getOutputStream());
 		p.print("Hello world TAA");
-		p.print(req.getParameter("name") );
 		p.flush();
 		
 	}
@@ -32,6 +31,6 @@ public class MyServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(req, resp);
+		super.doPost(req, resp);
 	}	
 }
