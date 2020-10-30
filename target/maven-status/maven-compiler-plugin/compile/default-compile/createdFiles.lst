@@ -1,0 +1,17 @@
+istic/dao/EmployeeDao.class
+istic/services/Department.class
+istic/servlet/SectionServlet.class
+istic/servlet/UserInfo.class
+istic/services/Card.class
+istic/dao/SectionDao.class
+istic/jpa/EntityManagerHelper.class
+istic/dao/DepartmentDao.class
+istic/jpa/JpaTest.class
+istic/dao/KanbanDao.class
+istic/services/Employee.class
+istic/servlet/MyServlet.class
+istic/services/Kanban.class
+istic/dao/AbstractJpaDao.class
+istic/dao/IGenericDao.class
+istic/services/Section.class
+istic/dao/CardDao.class
